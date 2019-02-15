@@ -1,0 +1,78 @@
+body{
+    margin:0;
+}
+
+.areaGrid{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-template-areas: 
+    "a1 b1 c1"
+    "a2 b2 c2"
+    "a3 b3 c3";
+    grid-gap: 10px;
+    margin: 0.5px;
+}
+
+
+.a1{
+    grid-area: a1;
+    background-color: blue;
+}
+ .b1{
+     grid-area: b1;
+     background-color: blueviolet;
+ }
+.c1{
+    grid-area: c1;
+    background-color: red;
+}
+.a2{ 
+    grid-area: a2;
+    background-color: pink;
+
+}
+.b2{
+    grid-area: b2;
+    background-color: green;
+}
+
+.c2{
+    grid-area: c2;
+    background-color: rgb(65,66,66);
+
+}
+
+.a3{
+    grid-area:a3;
+    background-color: palevioletred;
+}
+
+.b3{
+    grid-area: b3;
+    background-color: aqua;
+}
+
+.c3{
+    grid-area: c3;
+    background-color: crimson;
+}
+
+.x{
+    width: 100px;
+    display: none;
+}
+
+.o {
+    content: url(https://pngimage.net/wp-content/uploads/2018/05/c%C3%ADrculo-png-preto-3.png);
+}
+
+.visivel{
+    display: block;
+}
